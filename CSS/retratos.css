@@ -1,0 +1,72 @@
+header{
+  width: 100%;
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+ }
+ .Titulo h1{
+   color: white;
+   text-shadow: 2px 2px #02010a;
+ }
+ .Menu a{
+   color: white;
+ }
+ .Titulo,.Menu{
+   margin: auto;
+}
+.fila1,.fila2{
+  margin: auto;
+  width: 100%;
+  background-color: #d5c75f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+.fila1 img{
+  margin: 35px;
+
+}
+.fila2 img{
+  margin: 35px;
+}
+.imagen1{
+  filter: blur(10px);
+}
+.imagen2,.imagen4,.imagen6{
+  filter: grayscale(100%);
+}
+.imagen3{
+  filter: sepia(90%);
+}
+footer{
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #C6d5c5;
+
+}
+.pie-pagina{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Contacto,.Terminos,.Redes-Sociales,.Derechos{
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.Redes-Sociales img{
+  width: 30px;
+  height: 30px;
+}
+.Redes-Sociales label{
+
+margin-left: 5px;
+margin-top: -3px;
+}
